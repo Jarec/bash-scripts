@@ -1,0 +1,3 @@
+#!/bin/bash
+
+find $PWD -type f -name $1 | xargs grep -n --color $2
