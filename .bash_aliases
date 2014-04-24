@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if [ $UID -ne 0 ]; then
     alias reboot='sudo reboot'
     alias apt-get="sudo apt-get"
@@ -98,7 +100,7 @@ function extract()
                 bunzip2 $1      
                 ;;
             *.rar)
-                unrar x $1      
+                unrar x $1
                 ;;
             *.gz)
                 gunzip $1       
