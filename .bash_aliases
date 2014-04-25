@@ -10,6 +10,9 @@ alias update='apt-get update && apt-get upgrade'
 ## Colorize the ls output ##
 alias ls='ls --color=auto'
 
+# more is less :-)
+alias more='less'
+
 ## type error
 alias sl='ls'
  
