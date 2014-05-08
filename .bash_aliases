@@ -84,6 +84,7 @@ alias du2='du -d 2'
 
 alias bashrc='joe ~/.bashrc ; source ~/.bashrc'
 
+alias cd..='cd ..'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
