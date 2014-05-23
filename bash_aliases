@@ -83,12 +83,18 @@ alias du1='du -d 1'
 alias du2='du -d 2'
 
 alias bashrc='joe ~/.bashrc ; source ~/.bashrc'
+alias bash_aliases='joe ~/.bash_aliases ; source ~/.bashrc'
 
 alias cd..='cd ..'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
+
+# maven aliases
+alias mvncleaninst='mvn clean install -DskipTests'
+alias mnvinst='mvn install -DskipTests'
+
 
 # extract every archive in the world
 function extract()
