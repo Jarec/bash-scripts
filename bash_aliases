@@ -94,7 +94,7 @@ alias .....='cd ../../../..'
 
 # maven aliases
 alias mvncleaninst='mvn clean install -DskipTests'
-alias mnvinst='mvn install -DskipTests'
+alias mvninst='mvn install -DskipTests'
 
 
 # extract every archive in the world
