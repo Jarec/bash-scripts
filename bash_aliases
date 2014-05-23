@@ -82,8 +82,9 @@ alias du='du -ch'
 alias du1='du -d 1'
 alias du2='du -d 2'
 
-alias bashrc='joe ~/.bashrc ; source ~/.bashrc'
-alias bash_aliases='joe ~/.bash_aliases ; source ~/.bashrc'
+alias reload='source ~/.bashrc'
+alias bashrc='joe ~/.bashrc ; reload'
+alias bash_aliases='joe ~/.bash_aliases ; reload'
 
 alias cd..='cd ..'
 alias ..='cd ..'
